@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2pk2_KurlaevNikita", "2pk2_KurlaevNikita\2pk2_KurlaevNikita.csproj", "{93A149F6-CC8C-427A-819B-527239A5E390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz6", "pz6\pz6.csproj", "{BDE81C02-B5D3-4518-A172-166B8B564804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz6", "pz6\pz6.csproj", "{BDE81C02-B5D3-4518-A172-166B8B564804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz7", "pz7\pz7.csproj", "{670B26E6-3268-490E-A4F4-412A240BF791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BDE81C02-B5D3-4518-A172-166B8B564804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDE81C02-B5D3-4518-A172-166B8B564804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDE81C02-B5D3-4518-A172-166B8B564804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{670B26E6-3268-490E-A4F4-412A240BF791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670B26E6-3268-490E-A4F4-412A240BF791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670B26E6-3268-490E-A4F4-412A240BF791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670B26E6-3268-490E-A4F4-412A240BF791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
