@@ -8,25 +8,32 @@
             int count = 0;
             Console.Write("Введите количество переменных в массиве: ");
             int n = Convert.ToInt32(Console.ReadLine());
-            int[,] A = new int[n,1];
+            int[] A = new int[n];
             for (int i = 0; n > i; i++)
             {
                 int value = rnd.Next(20, 100);
-                A[i,0] = value;
-
+                A[i] = value;
                 if (value % 10 == 0)
                 {
                     count++;
                 }
             }
-            int[,] B = new int[A.Length, 1];
-            for (int i = 0; count > i; i++)
+            int[] B = new int[count];
+            for (int i = 0; n > i; i++)
             {
-                if (A[i, 0] % 10 == 0) 
+                int value = A[i];
+                if (value % 10 == 0)
                 {
-                    B[i,0] = A[i,0];
+                    for (int j = 0; count > j; j++)
+                    {
+                        if (B[j] == 0)
+                        {
+                            B[j] = value;
+                            break;
+                        }
+                        
+                    }
                 }
-                
             }
             foreach (int i in B)
             {
