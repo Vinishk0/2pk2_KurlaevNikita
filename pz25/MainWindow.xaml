@@ -1,0 +1,74 @@
+﻿<Window x:Class="pz25.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pz25"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock x:Name="inputTextBlock" Grid.Row="0" Grid.Column="0" 
+                   Grid.ColumnSpan="4" FontSize="30" TextAlignment="Right"></TextBlock>
+        
+        <Button x:Name="press1Button" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="1" FontSize="30" Click="press1Button_Click">
+        </Button>
+        <Button x:Name="press2Button" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="2" FontSize="30" Click="press2Button_Click">
+        </Button>
+        <Button x:Name="press3Button" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="3" FontSize="30" Click="press3Button_Click">
+        </Button>
+        <Button x:Name="press4Button" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="4" FontSize="30" Click="press4Button_Click">
+        </Button>
+        <Button x:Name="press5Button" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="5" FontSize="30" Click="press5Button_Click">
+        </Button>
+        <Button x:Name="press6Button" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="6" FontSize="30" Click="press6Button_Click">
+        </Button>
+        <Button x:Name="press7Button" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="7" FontSize="30" Click="press7Button_Click">
+        </Button>
+        <Button x:Name="press8Button" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="8" FontSize="30" Click="press8Button_Click">
+        </Button>
+        <Button x:Name="press9Button" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="9" FontSize="30" Click="press9Button_Click">
+        </Button>
+
+        <Button x:Name="PlusButton" Grid.Row="1" Grid.Column="4" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="+" FontSize="30" Click="plusButton_Click">
+        </Button>
+        <Button x:Name="MinusButton" Grid.Row="2" Grid.Column="4" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="-" FontSize="30" Click="minusButton_Click">
+        </Button>
+        <Button x:Name="UmnButton" Grid.Row="3" Grid.Column="4" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="*" FontSize="30" Click="umnButton_Click">
+        </Button>
+        <Button x:Name="delButton" Grid.Row="4" Grid.Column="4" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="/" FontSize="30" Click="delButton_Click">
+        </Button>
+        <Button x:Name="resultButton" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="=" FontSize="30" Grid.ColumnSpan="2" Click="resultButton_Click">
+        </Button>
+        <Button x:Name="zeroButton" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch" Content="0" FontSize="30" Click="zeroButton_Click">
+        </Button>
+    </Grid>
+</Window> 
